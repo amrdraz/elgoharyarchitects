@@ -1,0 +1,193 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+.displayNone {
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.4s;
+}
+
+.displayBlock {
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.4s;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+
+
+header {
+	height: 74px;
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	border-bottom: solid 1px #e0e0e0;
+}
+
+	.mainLogo {
+		width: 100px;
+		margin-top: 10px;
+		margin-left: 50px;
+	}
+
+	#openBurgerMenu {
+		height: 20px;
+		float: right;
+		margin-top: 25px;
+		margin-right: 50px;
+	}
+
+	#closeBurgerMenu {
+		width: 22px;
+		float: right;
+		margin-top: 25px;
+		margin-right: -27px;
+	}
+
+	header .mobileMenuToggle:hover {
+		cursor: pointer;
+	}
+
+	header nav {
+		width: 550px;
+		text-align: right;
+		position: fixed;
+		top: 28px;
+		right: 50px;
+		z-index: 100;
+		
+		display: none;
+	}
+
+	header nav a {
+		text-decoration: none;
+		color: #333333;
+		font-weight: 600;
+	}
+
+	header nav li {
+		margin-left: 20px;
+		display: inline;
+		padding-bottom: 7px;
+		
+		-webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+	}
+
+	header nav li:hover {
+		border-bottom: solid 1px;
+	}
+
+	header #currentPage li {
+		border-bottom: solid 1px #d6000b;
+	}
+
+
+
+#mobileMenu {
+	height: 100%;
+	width: 100%;
+	background-color: #2d2d2d;
+	position: fixed;
+	top: 0;
+	z-index: 90;
+}
+
+	#mobileMenu nav {
+		padding-left: 50px;
+		margin-top: 120px;
+	}
+
+		#mobileMenu nav a {
+			text-decoration: none;
+			color: #fff;
+			font-size: 20px;
+		}
+
+		#mobileMenu nav a:hover {
+			color: #c6c6c6;
+		}
+
+		#mobileMenu nav li {
+			margin-bottom: 20px;
+		}
+
+
+
+
+
+
+
+
+/* iPhone */
+@media (min-width: 322px) {
+	
+	.mainLogo {
+		width: 232px;
+		margin-top: 10px;
+		margin-left: 50px;
+	}
+	
+}
+
+
+/* small tablet */
+@media (min-width: 480px) {
+	
+	.mainLogo {
+		width: 232px;
+		margin-top: 10px;
+		margin-left: 50px;
+	}
+	
+}
+
+
+/* Larger than mobile */
+@media (min-width: 840px) {
+	
+	
+	
+	header nav, #HeaderNavResponsive {
+		display: block;
+	}
+	
+	header #openBurgerMenu {
+	visibility: hidden;
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+/*
+
+
+General Styling Notes
+
+Colour Values:	Red				#d6000b
+				Dark Green		#099f00
+				Light Grey		#a8a8a8
+
+Font Weights:	Light	100
+				Normal	400
+				Medium	500
+				Bold	700
+
+
+
+*/

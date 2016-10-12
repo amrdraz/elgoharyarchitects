@@ -1,0 +1,121 @@
+.headerImage {
+	width: 100%;
+	margin-top: 74px;
+}
+
+
+/*Office Activities*/
+
+#textContainer .left,
+#textContainer .right {
+	width: 50%;
+	float: left;
+}
+
+/* Less than 768px */
+@media (max-width: 768px) {
+	
+		#textContainer .left,
+		#textContainer .right {
+		width: 100%;
+		float: none;
+	}
+	
+}
+
+
+	#textContainer .left {
+		margin-bottom: 50px;
+	}
+
+	#textContainer h1 {
+		text-transform: uppercase;
+		font-size: 29px;
+		font-weight: 600;
+	}
+
+	#textContainer h2 {
+		text-transform: uppercase;
+		font-size: 1.2em;
+		line-height: 1.4em;
+		font-weight: 600;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		color: #acacac;
+	}
+
+	#textContainer h3 {
+		text-transform: uppercase;
+		font-size: 1.2em;
+		line-height: 1.4em;
+		font-weight: 600;
+		margin-top: 1px;
+		margin-bottom: 10px;
+	}
+
+		#textContainer p {
+		font-size: 1.1em;
+		font-weight: 300;
+		line-height: 1.8em;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		color: #505050;
+	}
+
+	#textContainer p .pin {
+		width: 12px;
+		margin-right: 4px;
+		vertical-align: baseline;
+	}
+
+	#textContainer p span {
+		font-style: italic;
+	}
+
+	#textContainer p a {
+		text-decoration: none;
+		color: #505050;
+		font-weight: 400;
+	}
+
+	#textContainer p strong {
+		font-size: 0.9em;
+		font-weight: 500;
+	}
+
+	#textContainer ul li {
+		line-height: 1.8em;
+	}
+
+
+
+
+
+
+
+/*Selected Projects*/
+
+
+#selectedProjects {
+	margin-top: 144px;
+	overflow: hidden;
+}
+
+	#selectedProjects .projectType {
+		width: 320px;
+		height: 320px;
+		float: left;
+	}
+
+	#selectedProjects .projectType:hover {
+		opacity: 0.7;
+	}
+
+	#selectedProjects .projectType h1 {
+		position: relative;
+		bottom: 55px;
+		left: 35px;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 22px;
+	}
