@@ -3,6 +3,38 @@
 	margin-top: 74px;
 }
 
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 74px 0 0 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
 
 /*Office Activities*/
 
@@ -31,7 +63,6 @@
 	#textContainer h1 {
 		text-transform: uppercase;
 		font-size: 29px;
-		font-weight: 600;
 	}
 
 	#textContainer h2 {
@@ -41,14 +72,12 @@
 		font-weight: 600;
 		margin-top: 5px;
 		margin-bottom: 10px;
-		color: #acacac;
 	}
 
 	#textContainer h3 {
 		text-transform: uppercase;
 		font-size: 1.2em;
 		line-height: 1.4em;
-		font-weight: 600;
 		margin-top: 1px;
 		margin-bottom: 10px;
 	}

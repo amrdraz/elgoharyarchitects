@@ -20,6 +20,20 @@ textarea:focus, input:focus{
 }
 
 
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+h2 {
+	color: #d6000b;
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
 
 header {
 	height: 74px;
@@ -75,7 +89,7 @@ header {
 	header nav li {
 		margin-left: 20px;
 		display: inline;
-		padding-bottom: 7px;
+		padding-bottom: 4px;
 		
 		-webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -84,11 +98,11 @@ header {
 	}
 
 	header nav li:hover {
-		border-bottom: solid 1px;
+		border-bottom: solid 2px;
 	}
 
 	header #currentPage li {
-		border-bottom: solid 1px #d6000b;
+		border-bottom: solid 2px #d6000b;
 	}
 
 
@@ -96,8 +110,9 @@ header {
 #mobileMenu {
 	height: 100%;
 	width: 100%;
-	background-color: #2d2d2d;
+	background-color: #aa0009;
 	position: fixed;
+	font-family: 'Work Sans', serif;
 	top: 0;
 	z-index: 90;
 }

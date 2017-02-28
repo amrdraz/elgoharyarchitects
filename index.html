@@ -6,24 +6,19 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
 		
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Work+Sans:300,300italic,400,500,600,700' rel='stylesheet' type='text/css'>
 		
         <link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="css/style_sections.css">
-		<link rel="stylesheet" type="text/css" href="css/projectsSlider.css">
-		<link rel="stylesheet" href="css/example.css">
-  		<link rel="stylesheet" href="css/wallop.css">
 		
-        
         <script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/velocity.min.js"></script>
-		
 		<script src="js/script.js"></script>
-		<script src="js/ProjectsSlider.js"></script>
-
 		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
 		
 		<link rel="icon" 
 			  type="image/png" 
@@ -72,7 +67,10 @@
 		
 <!--		Header Image-->
 		
-		<img class="headerImage" src="img/jpeg/officeActivities/officeActivitiesHeader.jpg">
+		<ul class="headerImage rslides">
+		  	<li><img src="img/jpeg/introslider/officeActivitiesHeader_6.jpg" alt=""></li>
+			<li><img src="img/jpeg/introslider/officeActivitiesHeader_7.jpg" alt=""></li>
+		</ul>
 		
 <!--		Text Section-->
 		
@@ -81,7 +79,10 @@
 			<div class="left">
 				<h1>Elgohary Architects</h1>
 				<h2>50 years of experience</h2>
+				
 			</div>
+			
+			
 			
 			<div class="right">
 				<h3>Office Activities & Location</h3>
@@ -128,7 +129,7 @@ Mirghany, Heliopolis, Cairo, Egypt</strong></p>
 				<br><br>
 
 				<h3>Office Spectrum</h3>
-				<p>The office runs a multi-disciplinary operation with a history of over than 30 years of practical practice that varies among:</p>
+				<p>The office runs a multi-disciplinary operation with a history of over 30 years of practical practice that varies among:</p>
 				<ul>
 					<li>Architectural & Planning Presentation Work</li>
 					<li>Palaces Restoration & Rehabilitation</li>
@@ -207,7 +208,11 @@ Mirghany, Heliopolis, Cairo, Egypt</strong></p>
 		</section>
 		
 		
-		
+		<script>
+				$(function() {
+					$(".rslides").responsiveSlides();
+				});
+		</script>
 
 		
 		
