@@ -1,5 +1,6 @@
 body {
 	font-family: 'Work Sans', sans-serif;
+	background: #f5f5f5;
 }
 
 
@@ -54,7 +55,7 @@ header {
 	#openBurgerMenu {
 		height: 20px;
 		float: right;
-		margin-top: 25px;
+		margin-top: 28px;
 		margin-right: 50px;
 	}
 
@@ -160,7 +161,7 @@ header {
 	
 	.mainLogo {
 		width: 232px;
-		margin-top: 10px;
+		margin-top: 8px;
 		margin-left: 50px;
 	}
 	
